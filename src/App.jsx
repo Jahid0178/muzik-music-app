@@ -10,7 +10,7 @@ import {
   Search,
   SongDetails,
   TopCharts,
-} from "./components/pages";
+} from "./pages";
 
 const App = () => {
   const { activeSong } = useSelector((state) => state.player);
